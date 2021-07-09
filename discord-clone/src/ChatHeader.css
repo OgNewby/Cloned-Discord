@@ -1,0 +1,63 @@
+.chatHeader {
+   display: flex;
+   justify-content: space-between;
+   align-items: center; 
+   padding: 10px;
+   color: antiquewhite;
+   border-bottom: 1px solid #560bad;
+   
+    
+   
+}
+
+.chatHeader__hash {
+    color:antiquewhite;
+    font-size: 30px;
+    padding: 10px;
+}
+
+.chatHeader__left > h3 {
+    display: flex;
+    align-items: center;
+    color:antiquewhite;
+    font-weight: 500;
+    margin-right: 50px;
+    
+}
+
+.chatHeader__right {
+    display: flex;
+   
+    align-items: center;
+    justify-content: right;
+    }
+
+.chatHeader__right > .MuiSvgIcon-root {
+    padding: 5px;
+    cursor:pointer;
+}
+
+ .MuiSvgIcon-root:hover {
+    color: #fca311;
+}
+
+
+
+.chatHeader__search > input {
+    background: transparent;
+    outline-width: 0;
+    color: antiquewhite;
+    border: none;
+    align-items: center;
+    height: 50px;
+    
+    }
+
+.searchHeader__search {
+    display: flex;
+    align-items: center;
+    color: antiquewhite;
+    background-color: gray;
+    border-radius: 3px;
+    padding: 3px;
+}
